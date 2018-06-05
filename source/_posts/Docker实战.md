@@ -2,8 +2,8 @@
 title: Docker实战
 subtitle: Docker
 date: 2018-03-08 19:16:50
-header-img: /images/docker.jpg
 tags: ["Docker", "容器", "镜像"]
+categories: ["技术"]
 ---
 docker(https://hub.docker.com/u/wensent/)
 1.启动nginx
