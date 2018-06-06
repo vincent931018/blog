@@ -8,7 +8,14 @@ subtitle: 有机会把我的故事讲给你听...
 description: 有机会把我的故事讲给你听...
 author: caowencheng<845982120@qq.com>
 language: zh-CN
-favicon: 
+favicon:
+
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
 # 时区
 timezone:
 
@@ -50,7 +57,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -59,7 +66,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
