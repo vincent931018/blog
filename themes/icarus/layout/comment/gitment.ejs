@@ -2,6 +2,17 @@
 	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 	<script>
+		var myTheme = {
+			render(state, instance) {
+				const container = document.createElement('div')
+				container.lang = "en-US"
+				container.className = 'gitment-container gitment-root-container'
+				container.appendChild(instance.renderEditor(state, instance))
+				container.appendChild(instance.renderComments(state, instance))
+				container.appendChild(instance.renderFooter(state, instance))
+				return container
+			},
+		}
 		var gitment = new Gitment({
 			owner: '<%= theme.comment.gitment.owner %>',
 			repo: '<%= theme.comment.gitment.repo %>',
@@ -9,6 +20,7 @@
 				client_id: '<%= theme.comment.gitment.client_id %>',
 				client_secret: '<%= theme.comment.gitment.client_secret %>',
 			},
+			theme: myTheme,
 		})
 		gitment.render('commentContainer')
 	</script>
