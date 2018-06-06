@@ -8,14 +8,13 @@ subtitle: 有机会把我的故事讲给你听...
 description: 有机会把我的故事讲给你听...
 author: caowencheng<845982120@qq.com>
 language: zh-CN
-favicon: /images/favicon.ico
-header-img: /images/header-img.png
+favicon: 
 # 时区
 timezone:
 
 #Server
 server:
-  port: 3001
+  port: 3333
   compress: true
   header: true
 
