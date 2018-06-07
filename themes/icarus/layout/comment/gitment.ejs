@@ -1,12 +1,13 @@
 <% if (typeof(script) !== 'undefined' && script) { %>
-	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+	<script src="https://billts.site/js/gitment.js"></script>
 	<script>
 		var myTheme = {
 			render(state, instance) {
 				const container = document.createElement('div')
 				container.lang = "en-US"
 				container.className = 'gitment-container gitment-root-container'
+				container.appendChild(instance.renderHeader(state, instance))
 				container.appendChild(instance.renderEditor(state, instance))
 				container.appendChild(instance.renderComments(state, instance))
 				container.appendChild(instance.renderFooter(state, instance))
@@ -14,6 +15,7 @@
 			},
 		}
 		var gitment = new Gitment({
+			id: '<%= page.date %>',
 			owner: '<%= theme.comment.gitment.owner %>',
 			repo: '<%= theme.comment.gitment.repo %>',
 			oauth: {
