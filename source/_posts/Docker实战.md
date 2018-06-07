@@ -1,19 +1,30 @@
 ---
+# 文章标题
 title: Docker实战
-subtitle: Docker
+# 文章创建时间
 date: 2018-03-08 19:16:50
+# 标签 可多选
 tags: ["Docker"]
+# 类别 可多选
 categories: ["技术"]
+# 右侧最新文章预览图
+thumbnail: https://qiniu.caowencheng.cn/docker.png
+# 文章顶部banner 可多张图片
+banner: https://www.hdwallpapers.net/previews/winter-day-at-yosemite-national-park-971.jpg
 ---
 
-![docker 集装箱](/images/docker.png "docker")
+<!-- ![docker 集装箱](https://qiniu.caowencheng.cn/docker.png "docker") -->
+
 1.什么是Docker？
 ==============
+
 >Docker 是一个开源的应用容器引擎，基于 Go 语言 并遵从Apache2.0协议开源。
 
 >Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。
 
 >容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）,更重要的是容器性能开销极低。
+
+<!--more-->
 
 2.Docker应用场景
 ===============
