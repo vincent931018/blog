@@ -1,4 +1,6 @@
 all:
+	# 拉取最新代码
+	git pull
 	# 删除老容器
 	docker rm -f blog
 	# 删除老镜像
@@ -17,3 +19,6 @@ build:
 	docker build -t hexo-blog .
 	# 构建新容器
 	docker run -d --name blog -p 3001:3001 hexo-blog
+pull:
+	# 拉取最新代码
+	git pull
