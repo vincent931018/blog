@@ -3314,9 +3314,9 @@ function extendRenderer(instance, renderer) {
 
     (0, _mobx.autorun)(function () {
       var e = render(instance.state, instance);
-      if (targetContainer.firstChild) {
+      if (targetContainer && targetContainer.firstChild) {
         targetContainer.replaceChild(e, targetContainer.firstChild);
-      } else {
+      } else if (targetContainer && !targetContainer.firstChild) {
         targetContainer.appendChild(e);
       }
     });

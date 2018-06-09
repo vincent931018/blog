@@ -15,7 +15,7 @@
 			},
 		}
 		var gitment = new Gitment({
-			id: '<%= page.date %>',
+			id: window.location.pathname.replace(/(\/$)/g, ''),
 			owner: '<%= theme.comment.gitment.owner %>',
 			repo: '<%= theme.comment.gitment.repo %>',
 			oauth: {

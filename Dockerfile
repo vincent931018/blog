@@ -4,9 +4,9 @@ FROM daocloud.io/node:latest
 RUN mkdir -p /data/www
 WORKDIR /data/www
 COPY . .
-RUN npm install cnpm -g
-RUN cnpm install
-RUN cnpm install hexo-cli -g
+RUN npm install yarn -g
+RUN yarn install
+RUN yarn global add hexo-cli
 RUN hexo generate
 
 # PORT
