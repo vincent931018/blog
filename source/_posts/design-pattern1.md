@@ -211,3 +211,5 @@ module2 = function(){
 >
 > 创建这个函数同样需要内存，所以过度使用会导致难以跟踪维护。
 
+[![](https://badge.juejin.im/entry/5b1cc500e51d45069352d11a/likes.svg?style=flat-square)](https://juejin.im/post/5b1cc46ce51d450679256ed9)
+
