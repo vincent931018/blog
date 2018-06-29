@@ -10,7 +10,7 @@ categories: ["技术"]
 # 右侧最新文章预览图
 thumbnail: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1530101797295&di=8d6ae6d9eb05e3675c1ff4ec3beffae5&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F5366d0160924ab182237cb0a3efae6cd7b890bed.jpg
 # 文章顶部banner 可多张图片
-banner: https://pic2.zhimg.com/80/v2-b25f8ab7bc3ffe9240286d4d50ff41f6_r.jpg
+banner: https://qiniu.caowencheng.cn/sky.jpg
 ---
 >内存泄漏是每个开发者最终必须面对的问题。即使使用有内存管理的语言，也有内存可能会泄漏的情况。泄漏是很多问题的起因：变慢，崩溃，高延迟，甚至是一些和其他应用一起用所出现的问题。
 
