@@ -190,4 +190,41 @@ MyFormComponent.Label = React.createClass({ ... });
 MyFormComponent.Input = React.createClass({ ... });
 ```
 
+七、如何在react中全局错误捕获？
+==========================
+
+在React中，可以使用ErrorBoundary组件包括业务组件的方式进行异常捕获，配合React 16.0+新出的componentDidCatch API，可以实现统一的异常捕获和日志上报。
+
+```
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  componentDidCatch(error, info) {
+    // Display fallback UI
+    this.setState({ hasError: true });
+    // You can also log the error to an error reporting service
+    logErrorToMyService(error, info);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      // You can render any custom fallback UI
+      return <h1>Something went wrong.</h1>;
+    }
+    return this.props.children;
+  }
+}
+```
+
+使用方式如下：
+
+```
+<ErrorBoundary>
+  <MyWidget />
+</ErrorBoundary>
+```
+
 <center><strong>***未完待续...***</strong></center>
