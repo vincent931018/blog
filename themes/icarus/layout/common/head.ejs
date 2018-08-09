@@ -2,6 +2,15 @@
 <html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
 <head>
     <meta charset="utf-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123663907-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-123663907-1');
+    </script>
     <meta name="keywords" content="一只程序Monkey,曹文成的博客,曹文成">
     <meta name="description" content="曹文成的博客,一只程序Monkey的博客,曹文成,一只程序Monkey">
     <%
