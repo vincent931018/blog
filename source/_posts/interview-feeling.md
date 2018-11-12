@@ -239,7 +239,7 @@ var vm = new Vue({
 
 10.js原型链。
 ==========
-![图-2](https://images2015.cnblogs.com/blog/787416/201603/787416-20160323103557261-114570044.png "description")
+![图-2](https://qiniu.caowencheng.cn/interview1.png "description")
 
 ```
 var a = {};
@@ -250,7 +250,7 @@ var b = function(){}
 console.log(b.prototype);  //b {}
 console.log(b.__proto__);  //function() {}
 ```
-![图-4](https://images2015.cnblogs.com/blog/787416/201603/787416-20160323103622089-1134417169.png "description")
+![图-4](https://qiniu.caowencheng.cn/interview2.png "description")
 
 ```
 /*1、字面量方式*/
@@ -273,7 +273,7 @@ console.log(a2.__proto__); //Object {a: 1}
 
 console.log(a.__proto__ === a.constructor.prototype); //false（此处即为图1中的例外情况）
 ```
-![图-5](https://images2015.cnblogs.com/blog/787416/201603/787416-20160322110905589-2039017350.png "description")
+![图-5](https://qiniu.caowencheng.cn/interview3.png "description")
 ```
 var A = function(){};
 var a = new A();
