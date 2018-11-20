@@ -12,6 +12,7 @@ thumbnail: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1
 # 文章顶部banner 可多张图片
 banner: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528611842648&di=30baa8a766cd76ba601b6425dd1b6a8e&imgtype=0&src=http%3A%2F%2Fp4.gexing.com%2FG1%2FM00%2FE6%2F8F%2FrBACE1P38EWyrLNuAACOXqB4SuY933.jpg
 ---
+
 先说说 "观察者模式" 与 "发布-订阅模式" 的区别
 ----------------------------
 **观察者设计模式:**

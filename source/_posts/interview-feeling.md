@@ -184,7 +184,7 @@ console.log(4);
 ```
 
 盗个图。
-![图-1](https://img-blog.csdn.net/20180411202638415?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xjMjM3NDIzNTUx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70 "description")
+![图-1](https://qiniu.caowencheng.cn/event-loop.png "description")
 
 * 宏任务一般是：包括整体代码script，setTimeout，setInterval。
 

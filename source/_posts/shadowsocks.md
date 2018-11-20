@@ -10,7 +10,7 @@ categories: ["技术"]
 # 右侧最新文章预览图
 thumbnail: https://qiniu.caowencheng.cn/shadowsocks.png
 # 文章顶部banner 可多张图片
-banner: https://blog.zhangruipeng.me/hexo-theme-icarus/gallery/math.jpg
+banner: https://qiniu.caowencheng.cn/hourse.jpg
 ---
 
 <!-- ![ShadowsocksX](https://qiniu.caowencheng.cn/shadowsocks.png "description") -->

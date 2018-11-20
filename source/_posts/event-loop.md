@@ -10,7 +10,7 @@ categories: ["技术"]
 # 右侧最新文章预览图
 thumbnail: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529390238948&di=bf0597b0cbdfa8dcffff1b3a207de591&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D2e7824ce5d2c11dfcadcb7600b4e08a5%2Fa8ec8a13632762d0bba24792aaec08fa513dc67b.jpg
 # 文章顶部banner 可多张图片
-banner: https://blog.zhangruipeng.me/hexo-theme-icarus/gallery/shoes.jpg
+banner: https://qiniu.caowencheng.cn/mount.png
 ---
 
 前言
